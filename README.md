@@ -26,3 +26,5 @@ This repo demonstrates the use of Eleventy to build a static website with a CSS 
     "_tmp/styles.css": "assets/styles/styles.css",
   });
 ```
+
+**Note:** Rather than PostCSS CLI outputting the stylesheet directly into the _site directory, which would not benefit from Eleventy Dev Server's live reloading, PostCSS CLI outputs the file to _tmp, and then Eleventy should copy it from there into the _site directory and live-reload it in the browser whenever it changes.
