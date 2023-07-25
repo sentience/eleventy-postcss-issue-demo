@@ -1,7 +1,5 @@
 # Reproduction for issue 11ty/eleventy#3007
 
-This repo serves as a minimal test case for [11ty/eleventy#3007](https://github.com/11ty/eleventy/issues/3007).
-
 To run:
 
 ```bash
