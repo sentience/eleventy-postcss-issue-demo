@@ -1,0 +1,4 @@
+.netlify
+_site
+_tmp
+node_modules
